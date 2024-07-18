@@ -1,0 +1,12 @@
+tmp/
+temp/
+
+# Ignore all pickle files
+*.pickle*
+*.pkl*
+
+# Ignore all data files
+*/data/*
+./**/data
+*/mlruns
+*/results
