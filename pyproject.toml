@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "demos for orca"
 authors = ["Orca DB Inc."]
 readme = "README.md"
-packages = [{ include = "util" }]
 
 [tool.poetry.dependencies]
 python = "^3.10,<3.12"
