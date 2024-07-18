@@ -7,3 +7,6 @@ temp/
 
 # Ignore all data files
 */data/*
+./**/data
+*/mlruns
+*/results
