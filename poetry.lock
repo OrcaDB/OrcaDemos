@@ -4727,13 +4727,13 @@ torch = ">=2.0.0,<2.0.1 || >2.0.1,<2.1.0 || >2.1.0"
 
 [[package]]
 name = "orcalib"
-version = "0.0.60"
+version = "0.0.63"
 description = "client library for Orca DB"
 optional = false
 python-versions = "<3.12,>=3.10"
 files = [
-    {file = "orcalib-0.0.60-py3-none-any.whl", hash = "sha256:5997c69684feb85ae9443b4208207ddb1b6484512219a1a56d8a553eee46aa66"},
-    {file = "orcalib-0.0.60.tar.gz", hash = "sha256:2e5f9b5f5eb88f35e044307eef2639e124d27c2eae3f3db4d7d6fb2102b21310"},
+    {file = "orcalib-0.0.63-py3-none-any.whl", hash = "sha256:e3103a45dd58207b654898b81aefc13cc9b818781b3bb2ac86e10c377e4d690e"},
+    {file = "orcalib-0.0.63.tar.gz", hash = "sha256:2d149ad41b627ad7bc06e48a0a56f88a23f59872438dd092d0728c38d8c4aced"},
 ]
 
 [package.dependencies]
@@ -4745,7 +4745,7 @@ numpy = ">=1.24,<2.0"
 orca-common = "0.1.3"
 orjson = ">=3.8.5,<4.0.0"
 pandas = ">=1.5,<3.0"
-pdoc = ">=14.1.0,<15.0.0"
+peewee = ">=3.17.5,<4.0.0"
 pyarrow = ">=14.0.1,<15.0.0"
 pydantic = ">=1.10,<3.0"
 python-multipart = ">=0.0.7,<0.0.8"
@@ -4932,23 +4932,14 @@ qa = ["flake8 (==5.0.4)", "mypy (==0.971)", "types-setuptools (==67.2.0.1)"]
 testing = ["docopt", "pytest"]
 
 [[package]]
-name = "pdoc"
-version = "14.5.1"
-description = "API Documentation for Python Projects"
+name = "peewee"
+version = "3.17.6"
+description = "a little orm"
 optional = false
-python-versions = ">=3.8"
+python-versions = "*"
 files = [
-    {file = "pdoc-14.5.1-py3-none-any.whl", hash = "sha256:fda6365a06e438b43ca72235b58a2e2ecd66445fcc444313f6ebbde4b0abd94b"},
-    {file = "pdoc-14.5.1.tar.gz", hash = "sha256:4ddd9c5123a79f511cedffd7231bf91a6e0bd0968610f768342ec5d00b5eefee"},
+    {file = "peewee-3.17.6.tar.gz", hash = "sha256:cea5592c6f4da1592b7cff8eaf655be6648a1f5857469e30037bf920c03fb8fb"},
 ]
-
-[package.dependencies]
-Jinja2 = ">=2.11.0"
-MarkupSafe = "*"
-pygments = ">=2.12.0"
-
-[package.extras]
-dev = ["hypothesis", "mypy", "pdoc-pyo3-sample-library (==1.0.11)", "pygments (>=2.14.0)", "pytest", "pytest-cov", "pytest-timeout", "ruff", "tox", "types-pygments"]
 
 [[package]]
 name = "peft"
@@ -8755,4 +8746,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10,<3.12"
-content-hash = "68f0bbbe7f8d2fd378d2e2be0d80dcf744c059ede897301844fae356aec5346c"
+content-hash = "560761c0ef09600abf2989b04e226ca4a702a09fb82b876d5b3a8912d2d22f89"
